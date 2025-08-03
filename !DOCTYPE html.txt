@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RIHA Collection</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff9f5;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 60px;
+    }
+    nav {
+      background: #f1e5e0;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .policies {
+      background: #faf3f0;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      font-size: 16px;
+    }
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .socials a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>RIHA COLLECTION</h1>
+  <p>Elegant Ethnic Wear – Delivered Across India</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#policies">Policies</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2 class="section-title">About Us</h2>
+  <p style="max-width: 600px; margin: auto; text-align: center;">
+    Welcome to <strong>RIHA Collection</strong> – your destination for stunning ethnic outfits, including co-ord sets, material suits, daily wear, and elegant sarees. Each piece is curated with love and tradition, ready to be delivered across India.
+  </p>
+</section>
+
+<section id="products">
+  <h2 class="section-title">Our Products</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/250x300?text=Co-ord+Set" alt="Co-ord Set">
+    <img src="https://via.placeholder.com/250x300?text=Material+Suit" alt="Material Suit">
+    <img src="https://via.placeholder.com/250x300?text=Daily+Wear+Suit" alt="Daily Wear Suit">
+    <img src="https://via.placeholder.com/250x300?text=Saree" alt="Saree">
+    <img src="https://via.placeholder.com/250x300?text=New+Arrivals" alt="New Arrivals">
+  </div>
+</section>
+
+<section id="policies">
+  <h2 class="section-title">Payment & Shipping Policies</h2>
+  <div class="policies">
+    <ul>
+      <li>🚫 <strong>No Cash on Delivery (COD)</strong></li>
+      <li>✅ Payments accepted via <strong>PhonePe, GPay, Bank Transfer</strong></li>
+      <li>🔁 <strong>No Returns</strong> – Only Exchange (video proof required)</li>
+      <li>🚚 We ship <strong>across India</strong></li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact & Social Media</h2>
+  <p style="text-align: center;">
+    📧 Email: <a href="mailto:rihacollection@gmail.com">rihacollection@gmail.com</a> <br>
+    📱 Instagram: <a href="https://www.instagram.com/rihacollection_" target="blank">@rihacollection</a><br>
+    ▶ YouTube: <a href="https://www.youtube.com/@Rihacollection-h6c" target="_blank">RIHA Collection Channel</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 RIHA Collection. All rights reserved.</p>
+  <div class="socials">
+    <a href="https://www.instagram.com/rihacollection_" target="_blank">Instagram</a> |
+    <a href="https://www.youtube.com/@Rihacollection-h6c" target="_blank">YouTube</a>
+  </div>
+</footer>
+
+</body>
+</html>
